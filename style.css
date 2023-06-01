@@ -1,0 +1,84 @@
+html {
+    background-color: #1b1b1b;
+    color: white;
+    font-size: 20px;
+}
+
+a[href]{color: #8cb4ff}
+
+#menu{
+    list-style: none; /* リストの頭の記号を消す */
+    display: flex;
+}
+#menu li {
+    width: 100px;
+}
+
+address{
+    text-align: center;
+}
+address p{
+    display: inline-block;
+    text-align: left;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#My-name{
+    font-size: 150%;
+}
+
+#update p{
+    width: 420px;
+    height: 60px;
+    margin: 0 auto;
+    overflow: auto;
+    border: thin solid lemonchiffon;
+}
+
+.bio{
+    list-style: none;
+}
+
+.content {
+    position: relative;
+    padding: 0 20px 40px 30px;
+    border-left: 2px solid #aaaaaa;
+    margin-top: -10px;
+}
+
+.content::before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -11px;
+    width: 20px;
+    height: 20px;
+    background-color: lavender;
+    border-radius: 10px;
+}
+
+#bk{
+    border-left: 2px dotted #aaaaaa;
+}
+
+.year{
+    font-weight: bold;
+    color: lemonchiffon;
+    font-size: 130%;
+}
+
+.ency input[type="checkbox"] {
+    display: none;
+}
+.ency .exp {
+    height: 0;
+    overflow: hidden;
+}
+.check:checked + .exp {
+    height: auto;
+}
